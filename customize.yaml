@@ -1,0 +1,19 @@
+#!!!!!!!!!!!!!!!!!!!!!
+#MAKE SURE THIS IS TURNED ON FOR THE ACCOUNT https://imgur.com/a/YzW9r5A, IT CAN BE 
+#FOUND AT: https://myaccount.google.com/lesssecureapps
+#!!!!!!!!!!!!!!!!!!!!!
+
+### Email Customization ###
+SendTimes: 0 #limit on how many messages to send, 0 is until you get banned LOL
+WordCount: 1 #how many random words to send in text field
+AutoBCC: false #send yourself a blind carbon copy of the message (aka spam yourself too)
+subject: "" #type in the subject of the email, leave blank for random word, it'll refresh on edvery message (cause im mean like that ;))
+
+### CREDENCIALS ### 
+PPLToSpam: #gmails here for who to send message to, can be as many recipients as you want
+  - "SomeoneYouHate@gmail.com"
+  #add more dashes if needed
+
+LoginInfo: #email to send from, gmail and password
+  - "YourGmail@gmail.com"
+  - "password"
