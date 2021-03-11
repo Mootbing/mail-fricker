@@ -9,7 +9,9 @@ Settings & customization of the script is also in that file
 
 Make sure to turn this feature on! 
 
+![Less Security Option Turned On](https://imgur.com/a/YzW9r5A)
 
+[Could be found here]()
 
 Else the script will be blocked by Gmail. Also make sure you are using an alt account so you don't get banned. Happy spamming.
 
