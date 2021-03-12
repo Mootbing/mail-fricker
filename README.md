@@ -2,7 +2,7 @@
 
 Cause havoc in other people's inboxes, spams the crap out of them
 
-![Example](https://imgur.com/a/flSpzeu)
+![Example](https://i.imgur.com/Fejw6eY.png)
 
 Yea... It's really effective
 
