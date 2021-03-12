@@ -10,6 +10,7 @@ import yagmail
 import yaml
 import time
 import requests
+import datetime
 
 RandomizeSubject = False
 Counter = 0
@@ -71,10 +72,10 @@ while (Counter < SendLimit or SendLimit == 0): #if you can still send
         else:
             MailClient.send(to=PPLToSpam, subject=Subject, contents=Content)
         
-        print("sent successfully")
+        print(f"Sent successfully at {str(datetime.datetime.now())}")
 
-    except:
-        raise SystemExit("Mail not sent successfully, check internet connection and etc.")
+    except Exception as e:
+        raise SystemExit("Mail not sent successfully, check internet connection... Or daily spam limit reached")
 
     Counter += 1 #update count
 
